@@ -1,0 +1,1 @@
+/* Calc Module containing calculation methods for the Calculator */
