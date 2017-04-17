@@ -24,3 +24,6 @@ const divide = (x, y) => {
 };
 // Exporting the function(s) explicitly
 export { divide };
+
+// Print numbers to console
+export default log = (x, y) => console.log(`First number: ${x}, Second number: ${y}`);
