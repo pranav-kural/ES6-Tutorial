@@ -1,0 +1,32 @@
+{
+  "name": "es6-tutorial",
+  "version": "1.0.0",
+  "description": "A tutorial of ES6's new features",
+  "main": "app.js",
+  "scripts": {
+    "build": "babel --presets es2015 src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranav-kural/ES6-Tutorial.git"
+  },
+  "keywords": [
+    "ES6",
+    "ES6",
+    "Tutorial",
+    "Tutorial"
+  ],
+  "author": "Pranav Kural",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranav-kural/ES6-Tutorial/issues"
+  },
+  "homepage": "https://github.com/pranav-kural/ES6-Tutorial#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "jshintConfig": {
+    "esversion": 6
+  }
+}
