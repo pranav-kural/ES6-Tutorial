@@ -1,13 +1,13 @@
 /* Calculator App file */
 
 // Import the default function from the calculator module
-import logger from './calc';
+import logger from './calculator';
 
 // Import specific methods from the modules
-import { add, substract } from './calc';
+import { add, substract } from './calculator';
 
 // Importing the default and the specific modules together
-import logOut, { multiply, divide } from './calc';
+import logOut, { multiply, divide } from './calculator';
 
 
 // Log numbers to console
