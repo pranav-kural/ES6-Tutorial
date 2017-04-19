@@ -28,6 +28,8 @@ logOut(divide(4, 2), add(5, 5));    //First number: 2, Second number: 10
 // Array of two numbers
 let myXandY = [1, 2];
 
+// ...myXandY === 1, 2
+
 // use the add method with spread operator
 console.log(`30 + 50 = ${add(...myXandY)}`); 
 
