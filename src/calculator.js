@@ -1,22 +1,28 @@
 /* Calculator Functions */
 
+// Print numbers to console
+const log = (x, y) => console.log("First number: " + x + ", Second number: " + y);
+
 // Add two numbers
-export const add = (x, y) => x + y;
+const add = (x, y) => x + y;
 
 // Substract two numbers
-export const substract = (x, y) => x - y;
+const substract = (x, y) => x - y;
 
 // Multiply two numbers
-export const multiply = (x, y) => x * y;
+const multiply = (x, y) => x * y;
 
 // Divide two numbers
 const divide = (x, y) => x / y;
 
-// Exporting a function excplicitly
-export { divide };
+// Function to add all the numbers received
+const addAll = (...numbers) => numbers.reduce((x, y) => x+y);
 
-// Print numbers to console
-const log = (x, y) => console.log("First number: " + x + ", Second number: " + y);
+// Function to multiply all the numbers received
+const multiplyAll = (...numbers) => numbers.reduce((x, y) => x*y);
+
+// Export the calculator module functions
+export { add, substract, multiply, divide, addAll, multiplyAll };
 
 // Export the default function
 export default log;
