@@ -4,7 +4,7 @@
   "description": "A tutorial of ES6's new features",
   "main": "app.js",
   "scripts": {
-    "build": "babel --presets es2015 src -d lol"
+    "build": "babel --presets es2015 src -d dist"
   },
   "repository": {
     "type": "git",
