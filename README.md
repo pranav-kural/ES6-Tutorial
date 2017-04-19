@@ -3,22 +3,26 @@ A tutorial to learn the new features introduced in the ECMAScript 2015. This tut
 
 ## Stages of the Tutorial
 
-  [Stage 1: var, let and const](#stage-1-var-let-and-const)
-  [Stage 2: Arrow Functions](#stage-2-arrow-functions)
-  [Stage 3: Modules](#stage-3-modules)
-  [Stage 4: Spread and Rest Operators](#stage-4-spread-and-rest-operators)
-  [Stage 5: Classes](#stage-5-classes)
-  [Stage 6: Number Functions](#stage-6-number-functions)
+  1. [Stage 1: var, let and const](#stage-1-var-let-and-const)
+  2. [Stage 2: Arrow Functions](#stage-2-arrow-functions)
+  3. [Stage 3: Modules](#stage-3-modules)
+  4. [Stage 4: Spread and Rest Operators](#stage-4-spread-and-rest-operators)
+  5. [Stage 5: Classes](#stage-5-classes)
+  6. [Stage 6: Number Functions](#stage-6-number-functions)
   
   
+  d
 ## Stage 1: var, let and const
-This is the starting point of the calculator app we're going to make through out this tutorial. This gives a brief introduction to the let and const keywords introduced in ES6 for declaring variables.jjj
+This is the starting point of the calculator app we're going to make through out this tutorial. This gives a brief introduction to the let and const keywords introduced in ES6 for declaring variables.
+
 
 ## Stage 2: Arrow Functions
 Files from stage 1 contains basic mathematical functions like add, substract etc., but these are written using the ES5 function syntax. In this stage we'll use the ES6 arrow functions to write these methods in a better, modern and more effective way.
 
+
 ## Stage 3: Modules
 ES6 introduced to JavaScript the concept of Modules, which makes it super easy to export and import functionalities between the applications, helping in building more modular applications. In this stage, we'll make our calculator app more modular, by converting the making a calculator module and an app.js file wich imports and uses its functionality.
+
 
 ## Stage 4: Spread and Rest Operators
 ES6 provides a very efficient and effective way to work with arrays. 
