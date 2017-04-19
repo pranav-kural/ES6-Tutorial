@@ -1,28 +1,28 @@
 /* Calculator functions */
 
 // Add two numbers
-function add(x, y) {
+var add = function(x, y) {
   return x + y;
-}
+};
 
 
 // Substract two numbers
-function substract(x, y) {
+var substract = function (x, y) {
   return x - y;
-}
+};
 
 // Multiply two numbers
-function multiply(x, y) {
+var multiply = function (x, y) {
   return x * y;
-}
+};
 
 
 // Divide two numbers
-function divide(x, y) {
+var divide = function(x, y) {
   return x / y;
-}
+};
 
 // Print numbers to console
-function log(x, y) {
+var log = function(x, y) {
   console.log("First number: " + x + ", Second number: " + y);
-}
+};
