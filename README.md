@@ -1,5 +1,5 @@
 # ES6-Tutorial
-A tutorial to learn the new features introduced in the ECMAScript 2015. This tutorial has been divided into different parts, each of which is represented by the different branches of this repository.
+A tutorial to learn the new features introduced in the ECMAScript 2015. This tutorial has been divided into different parts, each of which is represented by the different branches of this repository. Each branch is named according to its stage, starting from stage-1 to stage-6, except the master which contains the finished version of the app.
 
 ## Stages of the Tutorial
 
